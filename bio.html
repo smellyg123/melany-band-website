@@ -1,91 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bio</title>
     <style>
-        #picture{
+        #picture {
             align-content: center;
-            margin-left: 300px;
-            margin-top: 100px;
         }
-     
-        .home{
-            font-size:small;
+
+        #wrapper {
+            margin-left: auto;
+            margin-right: auto;
+            width: 960px;
+        }
+
+        .home {
+            font-size: small;
+            position: absolute;
             margin-top: 0%;
             margin-left: 100px;
 
         }
-        .introduction h1{
-        font-size: 100px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        background-position:center;
-        -webkit-text-fill-color: gold;
-        text-align: center;
-        width: max-content;
-        margin:0 auto;
-        margin: top 0;;
-       }
-    
+
+        .introduction h1 {
+            font-size: 100px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-position: center;
+            -webkit-text-fill-color: gold;
+            text-align: center;
+            width: max-content;
+            margin: 0 auto;
+            margin: top 0;
+            ;
+        }
+
         p1 {
-            font-size:larger;
-            text-align:center;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: larger;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             text-align: center;
             margin-left: 300px;
         }
-        
-       .button {
-        background-color:gold;
-        color: white;
-        border: solid black 1px;
-        text-shadow: 2px 2px #000000;
-        padding: 10px 10px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 20px;
-        margin: 4px 2px;
-        cursor: pointer;
-        width: 100px;
-       }
 
-        #bio-button 
-        {display: inline-block;
-        margin-left: 450px;
+        .button {
+            background-color: gold;
+            color: white;
+            border: solid black 1px;
+            text-shadow: 2px 2px #000000;
+            padding: 10px 10px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 4px 2px;
+            cursor: pointer;
+            width: 100px;
         }
 
-        .bioText{
-        color: aliceblue;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 20px;
-        margin-top: 10px;
-        margin-left: 200px;
-        margin-right: 200px;
-        align-self: center;
-        text-shadow: 2px 2px #000000;
-        } 
+        #bio-button {
+            display: inline-block;
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-bottom: auto;
+        }
 
+        .bioText {
+            color: aliceblue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            margin-top: 10px;
+            margin-left: 200px;
+            margin-right: 200px;
+            align-self: center;
+            text-shadow: 2px 2px #000000;
+        }
 
-        
+        #wrapper2 {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 700px;
+
+        }
     </style>
 </head>
+
 <body style="background-color: rgb(4, 4, 169);">
+    <div id="wrapper">
         <a href="index.html" class=button> HOME </a>
         <a href="bio.html" class=button id="bio-button"> BIO </a>
         <a href="music.html" class=button style="float: right;"> MUSIC </a>
-        
+    </div>
+
+
+    <div class="bioText" id="wrapper2">
+
         <img id="picture" src="biopicture.avif" alt="biopicture" width="600px" height="450px">
-        
-        <div class="bioText">
-            <p>Melany was born in Bucaramanga, Colombia. Coming from a family that was not particularly musical, she still always found her way back to music. From a very young age, her parents encouraged creativity and the exploration of various forms of art.</p>
-            <p>Her musical influences have always been diverse. Her father introduced her to music from the 80's and Hispanic singer-songwriters. As she grew older, she discovered jazz, electronic experimental music, and fusion—genres that reshaped her approach to songwriting and musical style.</p>
-            <p>Now she studies at Berklee College of Music and is majoring in Electronic Production and Design with a focus on Contemporary Writing and Production.</p>
-        </div>
-        
-<body>
-    
-</body>
+
+        <p>Melany was born in Bucaramanga, Colombia. Coming from a family that was not particularly musical, she still
+            always found her way back to music. From a very young age, her parents encouraged creativity and the
+            exploration of various forms of art.</p>
+        <p>Her musical influences have always been diverse. Her father introduced her to music from the 80's and
+            Hispanic singer-songwriters. As she grew older, she discovered jazz, electronic experimental music, and
+            fusion—genres that reshaped her approach to songwriting and musical style.</p>
+        <p>Now she studies at Berklee College of Music and is majoring in Electronic Production and Design with a focus
+            on Contemporary Writing and Production.</p>
+    </div>
+
+    <body>
+
+    </body>
+
 </html>
